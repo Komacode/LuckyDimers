@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cuenta Atrás</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="navbar">
+      <a href="/">Proximos Eventos</a>
+      <a href="/pago">Venta de Entradas</a>
+      <a href="#">Conócenos</a>
+      <a href="/faq">FAQ</a>
+    </div>
+
+    <div class="countdown-wrapper">
+      <div class="countdown-item">
+        <div class="label">Meses</div>
+        <div id="months" class="countdown">00</div>
+      </div>
+      <div class="countdown-item">
+        <div class="label">Días</div>
+        <div id="days" class="countdown">00</div>
+      </div>
+      <div class="countdown-item">
+        <div class="label">Horas</div>
+        <div id="hours" class="countdown">00</div>
+      </div>
+      <div class="countdown-item">
+        <div class="label">Minutos</div>
+        <div id="minutes" class="countdown">00</div>
+      </div>
+      <div class="countdown-item">
+        <div class="label">Segundos</div>
+        <div id="seconds" class="countdown">00</div>
+      </div>
+    </div>
+
+    <a href="/pago" class="cta-button">¡Consíguelas Ya!</a>
+  </div>
+
+  <script src="/static/countdown.js"></script>
+</body>
+</html>
